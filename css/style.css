@@ -1,0 +1,209 @@
+/* common css start */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box; 
+}
+
+a{
+    text-decoration:none;
+
+}
+
+ul{
+    list-style: none;
+}
+
+
+.container{
+
+width: 1170px;
+margin:auto;
+
+}
+
+.row{
+
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+
+.align-center{ 
+    
+    align-items:center;
+}
+
+ .banner{ 
+
+    background-color:#cfc91d;
+
+color:#0b1016;
+
+ text-transform:uppercase; 
+
+font-weight:800;
+
+font-size: 14px;
+
+ padding: 18px 43px; 
+
+ display:inline-block;   
+
+
+ 
+}
+
+
+body{
+
+     font-family: 'Open Sans', sans-serif; 
+
+}
+
+
+/* common css end */
+
+
+/* nav bar start */
+
+nav{ 
+
+
+    background-color:#02918b;
+
+   
+}
+
+nav .logo{
+
+   
+    width:40%;
+    
+
+}
+
+nav .menu{
+
+
+    width:60%;
+    text-align:right;
+   
+}
+
+.menu ul li{
+
+    display:inline-block;
+}
+
+.menu ul  li a {
+
+    color:white;
+    text-transform:uppercase; 
+     font-weight:800; 
+     font-size:12px; 
+     padding:25px 25px;
+
+     display:inline-block;
+}
+
+
+/* nav bar end */
+
+
+/* banner starts here  */
+
+
+#banner{
+
+    background-image: url(../Images/banner\(1\).jpg);
+
+     height:723px;  
+
+      /* padding: 210px 0;   */
+
+   background-size:cover; 
+
+   background-color:rgba(0, 0, 0, 0.34);
+
+    background-blend-mode: multiply; 
+   
+    
+}
+
+.banner_cnt{
+
+    text-align:center;
+}
+
+.banner_cnt h3{
+
+    font-weight:400;
+    font-size:30px;
+  
+
+     padding: 209px 0px 0px 0px; 
+
+
+    color:#edefef;
+
+    
+}
+
+.banner_cnt h1{
+
+    font-weight:800;
+    font-size:68px;
+    text-transform:uppercase;
+    
+    color:#ffffff;
+    letter-spacing:23px;
+ 
+}
+
+.banner_cnt p{
+
+    font-weight:400;
+    font-size:18px;
+    color:#e0e2e3;
+
+}
+
+
+.banner_cnt img{
+
+    margin: 51px auto; 
+
+     display:block;
+    
+}
+
+/* .banner_cnt a {
+
+
+    background-color:#cfc91d;
+
+color:#0b1016;
+
+ text-transform:uppercase; 
+
+font-weight:800;
+
+font-size: 14px;
+
+ padding: 18px 43px; 
+
+ display:inline-block;   
+
+
+ 
+} */
+
+
+ 
+
+
+
+/* banner end */
